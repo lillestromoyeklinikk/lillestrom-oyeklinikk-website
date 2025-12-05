@@ -25,8 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
             onClick={(e) => handleNavClick(e, '#hero')}
           >
             <div className="w-10 h-10 bg-brand-600 rounded-full flex items-center justify-center text-white">
-                <img src="/IMG_2120.jpg" alt="Lillestrøm Øyeklinikk" className="h-10" />            </div>
-          </div>
+                <img src="/Lillestrøm øyeklinikk logo.avif" alt="Lillestrøm Øyeklinikk" className="h-16" />        </div>          </div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex space-x-8 items-center">
