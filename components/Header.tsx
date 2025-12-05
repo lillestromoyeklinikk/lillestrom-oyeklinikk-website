@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Eye } from 'lucide-react';
-import { NAV_ITEMS } from '../constants';
+import { Menu, X } from 'lucide-react';import { NAV_ITEMS } from '../constants';
 
 interface HeaderProps {
   onNavigate: (href: string) => void;
@@ -26,8 +25,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, currentPage }) => {
             onClick={(e) => handleNavClick(e, '#hero')}
           >
             <div className="w-10 h-10 bg-brand-600 rounded-full flex items-center justify-center text-white">
-              <Eye size={24} />
-            </div>
+                <img src="/IMG_2120.jpg" alt="Lillestrøm Øyeklinikk" className="h-10" />            </div>
             <div>
               <h1 className="text-xl font-bold text-slate-900 leading-none">Lillestrøm</h1>
               <p className="text-sm font-medium text-brand-600 leading-none tracking-wide">ØYEKLINIKK</p>
